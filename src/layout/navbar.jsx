@@ -26,7 +26,7 @@ const Navbar = () => (
                                 className="text-coolGray-400 hover:text-coolGray-50 font-medium"
                                 href="#"
                             >
-                                Portfolio
+                                Contact Me
                             </a>
                         </li>
                         <li>
@@ -98,7 +98,7 @@ const Navbar = () => (
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                                     href="#"
                                 >
-                                    Portfolio
+                                    Contact Me
                                 </a>
                             </li>
                             <li>
