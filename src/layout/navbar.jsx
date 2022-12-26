@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => (
     <div className="bg-transparent">
         <nav className="flex justify-between p-6 px-4">
@@ -8,8 +6,7 @@ const Navbar = () => (
                     <a className="block max-w-max" href="#">
                         <img
                             className="h-12 rounded-full"
-                            src="images/elcharitas.png"
-                            alt
+                            src="/assets/images/elcharitas.png"
                         />
                     </a>
                 </div>
@@ -93,7 +90,7 @@ const Navbar = () => (
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                                     href="#"
                                 >
-                                    Product
+                                    Github
                                 </a>
                             </li>
                             <li>
@@ -101,7 +98,7 @@ const Navbar = () => (
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                                     href="#"
                                 >
-                                    Features
+                                    Portfolio
                                 </a>
                             </li>
                             <li>
@@ -109,33 +106,17 @@ const Navbar = () => (
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                                     href="#"
                                 >
-                                    Pricing
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                                    href="#"
-                                >
-                                    Resources
+                                    Twitter
                                 </a>
                             </li>
                         </ul>
                         <div className="flex flex-wrap">
-                            <div className="w-full mb-2">
-                                <a
-                                    className="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md"
-                                    href="#"
-                                >
-                                    Log In
-                                </a>
-                            </div>
                             <div className="w-full">
                                 <a
                                     className="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-violet-500 hover:bg-violet-600 font-medium text-center focus:ring-2 focus:ring-violet-500 focus:ring-opacity-50 rounded-md"
                                     href="#"
                                 >
-                                    Sign Up
+                                    ☕️ Buy me a Coffee
                                 </a>
                             </div>
                         </div>
