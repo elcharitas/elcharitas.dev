@@ -1,5 +1,5 @@
 import Header from "../layout/header";
-import BlogList from "../components/blogs";
+import BlogList from "../components/blog-list";
 import Footer from "../layout/footer";
 
 const HomePage = () => (
