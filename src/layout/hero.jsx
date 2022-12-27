@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = () => (
-    <div className="pt-12 pb-28 md:pb-72">
+    <div className="pt-12 pb-28">
         <div className="container px-4 mx-auto">
             <div className="mx-auto text-center max-w-3xl">
                 <span className="inline-block py-px px-2 mb-6 text-xs leading-5 text-white bg-primary-500 uppercase rounded-9xl">
