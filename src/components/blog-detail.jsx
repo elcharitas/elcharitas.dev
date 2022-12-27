@@ -4,14 +4,14 @@ const BlogDetail = ({ author, dateAdded, coverImage, slug, title }) => (
             className="block mb-6 overflow-hidden rounded-md"
             href={`https://blog.elcharitas.dev/${slug}`}
         >
-            <img className="w-full" src={coverImage} alt={title} />
+            <img className="w-full h-64" src={coverImage} alt={title} />
         </a>
         <p className="mb-2 text-coolGray-400 font-medium">
             {author} • {dateAdded}
         </p>
         <a
             className="inline-block mb-4 text-2xl leading-tight text-white hover:text-coolGray-100 font-bold hover:underline"
-            href="#"
+            href={`https://blog.elcharitas.dev/${slug}`}
         >
             {title}
         </a>

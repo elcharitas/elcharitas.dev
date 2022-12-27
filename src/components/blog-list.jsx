@@ -1,8 +1,8 @@
 import BlogDetail from "./blog-detail";
 
-const BlogList = () => (
+const BlogList = ({ posts }) => (
     <section
-        className="py-16 md:py-24 lg:pb-52 bg-coolGray-900"
+        className="py-16 md:py-24 bg-coolGray-900"
         style={{
             backgroundImage: 'url("flex-ui-assets/elements/pattern-dark2.svg")',
             backgroundRepeat: "no-repeat",
@@ -32,7 +32,9 @@ const BlogList = () => (
                 </div>
             </div>
             <div className="flex flex-wrap -mx-4">
-                <BlogDetail />
+                {posts.map((post) => (
+                    <BlogDetail key={post.slug} author="elcharitas" {...post} />
+                ))}
             </div>
         </div>
     </section>
