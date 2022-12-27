@@ -22,7 +22,7 @@ const Header = () => (
                     alt
                 />
                 <img
-                    className="absolute -right-8 -bottom-8 w-28 md:w-auto text-violet-500"
+                    className="absolute -right-8 -bottom-8 w-28 md:w-auto text-primary-500"
                     src="assets/elements/wave-violet.svg"
                     alt
                 />

@@ -42,7 +42,7 @@ const Navbar = () => (
                 <div className="w-1/2 xl:w-1/3">
                     <div className="hidden xl:flex items-center justify-end">
                         <a
-                            className="inline-block py-2 px-4 text-sm leading-5 text-violet-50 bg-violet-500 hover:bg-violet-600 font-medium focus:ring-2 focus:ring-violet-500 focus:ring-opacity-50 rounded-md"
+                            className="inline-block py-2 px-4 text-sm leading-5 text-primary-50 bg-primary-500 hover:bg-primary-600 font-medium focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 rounded-md"
                             href="#"
                         >
                             ☕️ Buy me a Coffee
@@ -113,7 +113,7 @@ const Navbar = () => (
                         <div className="flex flex-wrap">
                             <div className="w-full">
                                 <a
-                                    className="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-violet-500 hover:bg-violet-600 font-medium text-center focus:ring-2 focus:ring-violet-500 focus:ring-opacity-50 rounded-md"
+                                    className="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-primary-500 hover:bg-primary-600 font-medium text-center focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 rounded-md"
                                     href="#"
                                 >
                                     ☕️ Buy me a Coffee
