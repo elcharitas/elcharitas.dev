@@ -1,5 +1,3 @@
-import React from "react";
-
 const ErrorPage = () => (
     <section
         className="relative py-24 md:py-44 lg:py-64 bg-coolGray-50"

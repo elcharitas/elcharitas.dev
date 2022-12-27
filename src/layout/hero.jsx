@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => (
     <div className="pt-12 pb-28">
         <div className="container px-4 mx-auto">
