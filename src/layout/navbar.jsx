@@ -1,9 +1,9 @@
 const Navbar = () => (
     <div className="bg-transparent">
         <nav className="flex justify-between p-6 px-4">
-            <div className="flex justify-between items-center w-full">
+            <div className="flex justify-around items-center w-full">
                 <div className="w-1/2 xl:w-1/3">
-                    <a className="block max-w-max" href="#">
+                    <a className="block max-w-max" href="/">
                         <img
                             className="h-12 rounded-full"
                             src="/assets/images/elcharitas.png"
@@ -16,7 +16,7 @@ const Navbar = () => (
                         <li className="mr-12">
                             <a
                                 className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                                href="#"
+                                href="https://github.com/elcharitas"
                             >
                                 Github
                             </a>
@@ -24,7 +24,7 @@ const Navbar = () => (
                         <li className="mr-12">
                             <a
                                 className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                                href="#"
+                                href="https://zrjwbe8jgcy.typeform.com/to/CTSOLuLp"
                             >
                                 Contact Me
                             </a>
@@ -32,7 +32,7 @@ const Navbar = () => (
                         <li>
                             <a
                                 className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                                href="#"
+                                href="https://twitter.com/iamelcharitas"
                             >
                                 Twitter
                             </a>
@@ -43,7 +43,7 @@ const Navbar = () => (
                     <div className="hidden xl:flex items-center justify-end">
                         <a
                             className="inline-block py-2 px-4 text-sm leading-5 text-primary-50 bg-primary-500 hover:bg-primary-600 font-medium focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 rounded-md"
-                            href="#"
+                            href="https://www.buymeacoffee.com/elcharitas"
                         >
                             ☕️ Buy me a Coffee
                         </a>
@@ -74,21 +74,21 @@ const Navbar = () => (
             </button>
         </nav>
         <div className="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50">
-            <div className="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-coolGray-900">
+            <div className="fixed top-0 left-0 bottom-0 w-full max-w-xs bg-coolGray-900">
                 <nav className="relative p-6 h-full overflow-y-auto">
                     <div className="flex flex-col justify-between h-full">
-                        <a className="inline-block" href="#">
+                        <a className="inline-block" href="/">
                             <img
                                 className="h-8"
-                                src="assets/logos/flex-ui-violet.svg"
-                                alt
+                                src="/assets/images/elcharitas.png"
+                                alt="elcharitas"
                             />
                         </a>
                         <ul className="py-6">
                             <li>
                                 <a
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                                    href="#"
+                                    href="https://github.com/elcharitas"
                                 >
                                     Github
                                 </a>
@@ -96,7 +96,7 @@ const Navbar = () => (
                             <li>
                                 <a
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                                    href="#"
+                                    href="https://zrjwbe8jgcy.typeform.com/to/CTSOLuLp"
                                 >
                                     Contact Me
                                 </a>
@@ -104,7 +104,7 @@ const Navbar = () => (
                             <li>
                                 <a
                                     className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                                    href="#"
+                                    href="https://twitter.com/iamelcharitas"
                                 >
                                     Twitter
                                 </a>
@@ -114,7 +114,7 @@ const Navbar = () => (
                             <div className="w-full">
                                 <a
                                     className="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-primary-500 hover:bg-primary-600 font-medium text-center focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 rounded-md"
-                                    href="#"
+                                    href="https://www.buymeacoffee.com/elcharitas"
                                 >
                                     ☕️ Buy me a Coffee
                                 </a>

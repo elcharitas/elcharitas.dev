@@ -25,7 +25,7 @@ const BlogList = ({ posts }) => (
                 <div className="w-full md:w-1/4">
                     <a
                         className="flex items-center justify-center py-2 px-4 ml-auto text-sm leading-5 text-primary-50 font-medium bg-primary-500 hover:bg-primary-600 focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 md:max-w-max rounded-md"
-                        href="https://blog.elcharitas.dev/archive"
+                        href="https://blog.elcharitas.dev"
                     >
                         View All Posts
                     </a>

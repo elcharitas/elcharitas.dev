@@ -18,7 +18,7 @@ const Hero = () => (
                     <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                         <a
                             className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-primary-50 font-medium text-center bg-primary-500 hover:bg-primary-600 focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                            href="#"
+                            href="https://zrjwbe8jgcy.typeform.com/to/CTSOLuLp"
                         >
                             Get in Touch
                         </a>
@@ -26,7 +26,7 @@ const Hero = () => (
                     <div className="w-full md:w-auto py-1 md:py-0">
                         <a
                             className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-100 font-medium text-center bg-coolGray-700 hover:bg-coolGray-800 focus:ring-2 focus:ring-coolGray-700 focus:ring-opacity-50 rounded-md shadow-sm"
-                            href="#"
+                            href="https://links.dev/elcharitas"
                         >
                             👀 View Links
                         </a>
